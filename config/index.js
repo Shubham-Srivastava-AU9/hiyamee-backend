@@ -1,0 +1,1 @@
+exports.ACCESS_TOKEN_SECRET = process.env.NODE_ENV === 'production' ? process.env.ACCESS_TOKEN_SECRET : '1234';
